@@ -1,0 +1,14 @@
+%% -*- Erlang -*-
+
+{application, proxylocal,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {proxylocal_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,10 @@
+%% -*- Erlang -*-
+
+[
+ {proxylocal, [{domain, "t.lvh.me:8080"},
+               {http,   [{port, 8080}, {ip, any}]},
+               {client, [{port, 8282}, {ip, any}]}]},
+
+ {sasl, [{errlog_type, error},
+         {utc_log,     true}]}
+].

@@ -1,0 +1,6 @@
+/.eunit
+/deps
+/ebin
+/erl_crash.dump
+/priv/app.config
+/priv/*.pem
